@@ -8,15 +8,15 @@ Both phases run independently and share a consistent CSV schema.
 
 ## Phase 1 – Price Pulse
 
-| Requirement                                       | Status |
-|---------------------------------------------------|:------:|
-| Poll CoinGecko every 1 s                          | ✔ |
-| Keep last 10 prices                               | ✔ |
-| Compute SMA (10)                                  | ✔ |
-| Exponential back‑off (1 → 2 → 4 s)                | ✔ |
-| Continue after 5 consecutive failures             | ✔ |
-| Graceful Ctrl‑C                                   | ✔ |
-| **PyTest coverage for core logic**                | ✔ |
+| Requirement                                   | Status |
+|-----------------------------------------------|:------:|
+| Poll CoinGecko every 1 s                      | ✔ |
+| Keep last 10 prices                           | ✔ |
+| Compute SMA (10)                              | ✔ |
+| Exponential back‑off (1 → 2 → 4 s)            | ✔ |
+| Continue after 5 consecutive failures         | ✔ |
+| Graceful Ctrl‑C                               | ✔ |
+| PyTest coverage for core logic                | ✔ |
 
 Sample output
 
