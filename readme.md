@@ -27,8 +27,7 @@ Sample output
 Unit tests live under `Phase1/tests/` and cover:
 
 * SMA window calculation
-* Exponential‑back‑off helper
-* Parsing / formatting helpers
+* Price fetcher
 
 Run tests with:
 
