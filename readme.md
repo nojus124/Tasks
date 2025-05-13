@@ -41,7 +41,8 @@ pytest Phase1
 
 ### 2.1 HTML scraper (~200 LOC)
 
-* Playwright‑powered; auto scrolls and paginates.  
+* Playwright‑powered; auto scrolls and paginates.
+* Apply column filters
 * Table is processed **25 rows per page** → **100 rows = 4 pages**.  
 * Extracts Rank, Name, Symbol, Price (USD), 24 h % Change, Market Cap (USD).  
 * Fail‑safes: GDPR banner dismissal, network timeouts, graceful Ctrl‑C.  
